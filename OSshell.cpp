@@ -30,19 +30,19 @@ string u_NAME,u_HOME,prompt,pwd,host;
 int status;
 
 
-
 void evaluateNormal(string ip)
 {
+	int status;
 	if(ip=="$$")
 	{
 		cout<<getpid()<<endl;
 	}
-	else if(ip=="$")
+	else if(ip=="$?")
  	{
-
 	}
 	else
 	{
+
 		char **temp = tokenize(ip);	
 
 		temp = checkinMap(temp);
@@ -63,7 +63,8 @@ void evaluateNormal(string ip)
 				execvp(temp[0],temp);	
 			}
 		}
-		wait(&status);
+		waitpid(pid,&status,0);
+		    
 	}
 }
 //-----------------------------------------------------
@@ -134,7 +135,7 @@ void evaluateOpen(string str)
 		execvp(args[0],args);
 	}	
 	else
-		wait(NULL);
+		wait(&status);
 }
 
 //-------------------------------------------------------------------

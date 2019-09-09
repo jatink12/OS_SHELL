@@ -413,3 +413,111 @@ cat ab.txt
 clear
 rm ab.txt
 clear
+cd ~
+clear
+clear
+clear
+clear
+clear
+clear
+ls -l
+ls -l|grep 6|grep RBR
+clear
+ls
+ls -l
+$?
+$$
+ls
+$?
+$$
+$
+jatin
+$
+ls
+$
+lsss
+$
+ls
+$$
+$
+$?
+ls
+$?
+jatin
+$?
+ls
+ls -l
+$?
+jatin
+$?
+ls
+$?
+jatin
+$?
+ls
+$?
+clear
+laaa
+$?
+ls
+$?
+jatin
+$?
+$??
+$?
+ls
+$?
+kk
+$?
+ls
+kk
+llll
+llll
+lll
+lll
+$?
+ls
+ls -l
+$?
+jatin
+$?
+ls
+$?
+la
+$?
+ls
+ls
+kk
+$?
+ls
+clear
+ls -l
+ls -l|grep 17|grep O
+clear
+alias x=ls
+x
+clear
+open /home/jatin/RBR.MP4
+clear
+$$
+$?
+clear
+echo jatin>abc.txt
+cat abc.txt
+clear
+ls
+clear
+echo khachane>>abc.txt
+cat abc.txt
+clear
+clear
+claea
+clear
+su
+clear
+grep -o khachane|cat abc.txt
+clear
+grep khachane abc.txt
+grep -o khch abc.txt
+grep -o kha abc.txt
+clear

@@ -11,6 +11,7 @@
 //#include"checkCommand.cpp"
 #include"Redirect.h"
 
+extern int status;
 
 using namespace std;
 
